@@ -48,16 +48,9 @@
     background: #0dcaf0;
 }
 
-@media (max-width: 757px) {
-    .fondofooter {
-        text-align: center;
-    }
-}
-
+/*sirve para sacar la seccion de quienes somos a resolucion mas pequeña*/
 @media (max-width: 527px){
     .desaparecer{
     display:none
     }
     }
-
-
