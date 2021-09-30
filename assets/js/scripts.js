@@ -35,3 +35,9 @@ $(function(){
         $("#p4").toggle();
     });
 });
+
+//incorporamos tooltip para los textos dentro del navbar
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
