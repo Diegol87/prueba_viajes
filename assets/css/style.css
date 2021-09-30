@@ -54,4 +54,10 @@
     }
 }
 
+@media (max-width: 527px){
+    .desaparecer{
+    display:none
+    }
+    }
+
 
