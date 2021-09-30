@@ -1,0 +1,57 @@
+/*para darle el tamaño a la imágen en el navbar*/
+.imgp {
+    height: 40px;
+    width: 40px;
+}
+
+/*para poder acomodar el navbar con el carrusel*/
+.my-nav {
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background: none !important;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+}
+
+.seccion {
+    background: #000000;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+
+.titulo {
+    border-bottom: 1px solid #0dcaf0;
+}
+
+/*para agregar el color celeste o calipso a los iconos de font*/
+.favicon, .card-body {
+    background: #0dcaf0;
+    color: #ffffff;
+}
+
+/*para dar el ancho en las secciones de los parrafos y linea divisora*/
+.texto {
+    width: 90%;
+}
+
+/*solo ajuste la segunda imagen ya que tenía un alto mayor a las demas*/
+.card1 {
+    height: 265px;
+}
+
+.faviconfoot {
+    color: #ffffff;
+}
+
+.fondofooter {
+    background: #0dcaf0;
+}
+
+@media (max-width: 757px) {
+    .fondofooter {
+        text-align: center;
+    }
+}
+
+
