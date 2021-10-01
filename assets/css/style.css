@@ -54,3 +54,11 @@
     display:none
     }
     }
+
+.card-text:hover, .card-title:hover {
+    color: #108bf0b6;
+}
+
+.favicon:hover {
+    background: #4b1da0;
+}
